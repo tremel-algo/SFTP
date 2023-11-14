@@ -1,0 +1,22 @@
+[
+    {
+        "local_folder": "/path/to/local/folder1",
+        "sftp_folder": "/path/to/sftp/folder1",
+        "sftp_host": "sftp.example.com",
+        "sftp_port": 22,
+        "sftp_username": "your_username",
+        "sftp_password": "your_password",
+        "filename_patterns": ["*.txt", "*.csv"],
+        "direction": "upload"
+    },
+    {
+        "local_folder": "/path/to/local/folder2",
+        "sftp_folder": "/path/to/sftp/folder2",
+        "sftp_host": "sftp.anotherexample.com",
+        "sftp_port": 22,
+        "sftp_username": "another_username",
+        "sftp_password": "another_password",
+        "filename_patterns": ["*.log", "*.xml"],
+        "direction": "download"
+    }
+]
